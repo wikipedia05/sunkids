@@ -14,7 +14,7 @@ function newLevel() {
         for (let i = 0; i < count; i++) {
             document.querySelector(".all-game-items").innerHTML +=
                 `
-        <img src="img/bigApple.png" alt="">
+        <img src="img/bigapple.png" alt="">
         `
         }
 
