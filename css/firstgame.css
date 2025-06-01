@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Comic Relief", system-ui;
+}
+
+body {
+    background: rgba(251, 242, 213, 1);
+    text-align: center;
+    background-image: url(../img/bodyBackImg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {width: 75.64%;}
+
+    /* Header */
+
+header {margin: 16px 0 22px 0;}
+
+    /* Game */
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-game-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    row-gap: 30px;
+    column-gap: 32px;
+}
+
+.game button {
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.selected{
+    box-shadow: #ffaaaa 0 0 10px 4px;
+}
+
+button {transition: all .4s ease-in-out;}
+
+button:active {
+    transform: scale(1.1);
+	transition: .2s;
+}
+
+.game-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(239, 138, 48, 1);
+    margin-bottom: 22px;
+}
+
+.gameInput {
+    width: 157px;
+    height: 44px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(244, 247, 255, 1);
+    border: 0;
+    outline: none;
+    background: rgba(239, 138, 48, 1);
+    margin-bottom: 27px;
+}
+
+.game img {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.all-game-items button {background: #fff;}
+
+.continueBtn {
+    width: 272px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    background: rgba(239, 138, 48, 1);
+    color: rgba(229, 244, 251, 1);
+    border-radius: 10px;
+    margin: 29px 0 30px 0;
+}
+
+    /* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(91, 91, 91, 1);
+}
+
+.line {
+    width: 330px;
+    height: 2px;
+    background: rgba(246, 185, 122, 1);
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 15px 0 10px 0;
+}
+
+@media screen and (min-width: 780px) {
+    header img {width: 564px;}
+    .game-title {font-size: 36px;}
+    .gameInput {
+        width: 296px;
+        height: 84px;
+        font-size: 36px;
+        margin-bottom: 48px;
+    }
+
+    .all-game-items img {
+        width: 146.02px;
+        height: 140.33px;
+    }
+
+    .continueBtn {
+        width: 519.27px;
+        height: 84px;
+        font-size: 32px;
+    }
+
+    .line {
+        width: 600px;
+        height: 5px;
+    }
+
+    footer p {font-size: 28px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
