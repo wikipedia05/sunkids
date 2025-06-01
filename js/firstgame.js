@@ -5,7 +5,7 @@ function newLevel() {
         document.querySelector(".gameInput").value = `Уровень ${level}`
         let generator = seededRandom(level);
 
-        cards = ["bigMoon", "bigHeart", "bigEarth", "bigCircle", "bigSettings", "bigSmile", "bigMoon", "bigHeart", "bigEarth", "bigCircle", "bigSettings", "bigSmile"]
+        cards = ["bigmoon", "bigheart", "bigearth", "bigcircle", "bigsettings", "bigsmile", "bigmoon", "bigheart", "bigearth", "bigcircle", "bigsettings", "bigsmile"]
 
         document.querySelector(".all-game-items").innerHTML = '';
 
