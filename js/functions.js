@@ -35,6 +35,7 @@ if (!!user) {
     try {
       document.querySelector(".loginInput").value = data.name
       document.querySelector(".login-title").innerHTML = `Привет, друг! Выбери игру и начни своё приключение!`
+      document.querySelector(".loginBtn").textContent = "Выйти"
     } catch (error) {
       
     }
