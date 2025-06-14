@@ -10,8 +10,8 @@ body {
     background: rgba(162, 202, 254, 1);
     text-align: center;
     background-image: url(../img/bodyBackImg.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: repeat;
 }
 
 a, button {transition: all .4s ease-in-out;}
