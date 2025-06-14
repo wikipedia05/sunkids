@@ -4,24 +4,33 @@
     text-decoration: none;
     list-style: none;
     font-family: "Comic Relief", system-ui;
+    box-sizing: border-box;
+
 }
 
 body {
     background: #C0E4FC;
     text-align: center;
-    background-image: url(../img/bodyBackImg2.png);
+    background-image: url(../img/bodyBackImg.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.container {width: 75.64%;}
+.container {
+    width: 75.64%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    /* Header */
+/* Header */
 
-header {margin: 16px 0 22px 0;}
+header {
+    margin: 16px 0 22px 0;
+}
 
-    /* Game */
+/* Game */
 
 .game {
     display: flex;
@@ -33,13 +42,10 @@ header {margin: 16px 0 22px 0;}
 .all-game-items {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 30px;
-    column-gap: 32px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
-    width: 295.29px;
-    box-sizing: border-box;
-    justify-self: center;
+    width: 300px;
 }
 
 .game button {
@@ -48,11 +54,13 @@ header {margin: 16px 0 22px 0;}
     border-radius: 10px;
 }
 
-button {transition: all .4s ease-in-out;}
+button {
+    transition: all .4s ease-in-out;
+}
 
 button:active {
     transform: scale(1.1);
-	transition: .2s;
+    transition: .2s;
 }
 
 .game-title {
@@ -96,7 +104,7 @@ button:active {
     margin: 29px 0 30px 0;
 }
 
-    /* Footer */
+/* Footer */
 
 footer {
     display: flex;
@@ -122,8 +130,14 @@ footer p {
 }
 
 @media screen and (min-width: 780px) {
-    header img {width: 564px;}
-    .game-title {font-size: 36px;}
+    header img {
+        width: 564px;
+    }
+
+    .game-title {
+        font-size: 36px;
+    }
+
     .gameInput {
         width: 296px;
         height: 84px;
@@ -131,7 +145,21 @@ footer p {
         margin-bottom: 48px;
     }
 
-    .all-game-items {width: 619.21px;}
+    .all-game-items {
+        width: 619px;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .number-button{
+        width: 100%;
+        aspect-ratio: 1;
+        font-size: 60px;
+        width: calc((100% - 60px) / 3);
+        height: auto;
+    }
 
     .all-game-items img {
         width: 146.02px;
@@ -149,37 +177,7 @@ footer p {
         height: 5px;
     }
 
-    footer p {font-size: 28px;}
+    footer p {
+        font-size: 28px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
