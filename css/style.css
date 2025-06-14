@@ -9,7 +9,7 @@
 body {
     background: rgba(162, 202, 254, 1);
     text-align: center;
-    background-image: url(../img/bodyBackImg.png);
+    background-image: url(../img/bodyBackImg.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -192,34 +192,3 @@ footer p {
 
     footer p {font-size: 28px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
